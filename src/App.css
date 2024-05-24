@@ -1,0 +1,117 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+body *:after,
+body *:before {
+  box-sizing: border-box;
+}
+
+.banner {
+  padding: 16px;
+  border-radius: 4px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  margin-bottom: 16px;
+  border: 1px solid rgba(225, 225, 226, 1);
+  box-shadow: 0px 1px 0px 0px rgba(26, 26, 26, 0.08);
+  background: rgba(255, 255, 255, 1);
+}
+
+#root {
+  padding: 16px;
+  background-color: #fff;
+  color: black;
+  width: inherit;
+  height: inherit;
+  overflow: auto;
+}
+.main-content {
+  text-align: justify;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+code {
+  color: dodgerblue;
+  font-weight: bold;
+  padding: 2px;
+  border: 1px solid dodgerblue;
+}
+
+.scroll-container {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.04);
+  border: 6px;
+  padding: 8px;
+}
+
+.scroll-container.light-theme {
+  background: #5386c8;
+}
+
+article {
+  height: 330px;
+  width: 320px;
+  margin: 10px 20px;
+  padding: 20px;
+  overflow: auto;
+  line-height: 20pt;
+  font-size: 10pt;
+  color: gray;
+  background: rgba(0, 0, 0, 0.04);
+  text-align: left;
+}
+
+.light-theme .theme-name {
+  color: #fff;
+}
+
+.light-theme article {
+  background: #3c6396;
+  box-shadow: 0px 13px 20px -10px rgba(35, 80, 129, 0.35);
+}
+
+.light-theme article .inner-div {
+  color: #fff;
+}
+
+.inner-div {
+  width: 420px;
+}
+.download-link {
+  height: 50px;
+}
+.download-link a {
+  width: 130px;
+  height: 40px;
+  background: rgb(54, 190, 253);
+  display: block;
+  text-decoration: none;
+  margin: 0px auto;
+  border-radius: 4px;
+  position: relative;
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 11pt;
+  text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.07);
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.07);
+  cursor: pointer;
+  transition: width 0.3s;
+}
+.download-link a:hover {
+  width: 160px;
+  color: #fff;
+}
