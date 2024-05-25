@@ -4,8 +4,10 @@ import { scrollBarTheme, useScrollBar } from "./useScrollBar";
 export default function Content({
   light = false,
   theme,
+  link,
 }: {
   light?: boolean;
+  link?: string;
   theme: scrollBarTheme;
 }) {
   const ref = useRef<HTMLElement>(null);
@@ -81,15 +83,15 @@ export default function Content({
           ipsum non modi libero totam impedit eveniet sapiente, omnis vel culpa
           dolor delectus unde doloribus exercitationem deserunt ex. <br />
           <br />
-          
-    
         </div>
       </article>
       <div className="download-link">
         {["os-theme-dark", "os-theme-light"].includes(theme) ? (
           "build-in"
         ) : (
-          <a href="#">Download</a>
+          <a href={link} target="_blank">
+            Download
+          </a>
         )}
       </div>
     </div>

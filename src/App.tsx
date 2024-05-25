@@ -32,16 +32,51 @@ function App() {
       <section className="main-content">
         <Content theme="os-theme-dark" />
         <Content light={true} theme="os-theme-light" />
-        <Content theme="os-theme-minimal-dark" />
-        <Content light theme="os-theme-minimal-light" />
-        <Content theme="os-theme-thin-dark" />
-        <Content theme="os-theme-thin-light" light />
-        <Content theme="os-theme-thick-dark" />
-        <Content theme="os-theme-thick-light" light />
-        <Content theme="os-theme-round-dark" />
-        <Content theme="os-theme-round-light" light />
-        <Content theme="os-theme-block-dark" />
-        <Content theme="os-theme-block-light" light />
+        <Content
+          theme="os-theme-minimal-dark"
+          link="https://github.com/vickey-dev/scroll-themes-overlayScrollbars/blob/main/src/scroll-themes/os-theme-minimal-dark.css"
+        />
+        <Content
+          light
+          theme="os-theme-minimal-light"
+          link="https://github.com/vickey-dev/scroll-themes-overlayScrollbars/blob/main/src/scroll-themes/os-theme-minimal-light.css"
+        />
+        <Content
+          theme="os-theme-thin-dark"
+          link="https://github.com/vickey-dev/scroll-themes-overlayScrollbars/blob/main/src/scroll-themes/os-theme-thin-dark.css"
+        />
+        <Content
+          theme="os-theme-thin-light"
+          light
+          link="https://github.com/vickey-dev/scroll-themes-overlayScrollbars/blob/main/src/scroll-themes/os-theme-thin-light.css"
+        />
+        <Content
+          theme="os-theme-thick-dark"
+          link="https://github.com/vickey-dev/scroll-themes-overlayScrollbars/blob/main/src/scroll-themes/os-theme-thick-dark.css"
+        />
+        <Content
+          theme="os-theme-thick-light"
+          light
+          link="https://github.com/vickey-dev/scroll-themes-overlayScrollbars/blob/main/src/scroll-themes/os-theme-thick-light.css"
+        />
+        <Content
+          theme="os-theme-round-dark"
+          link="https://github.com/vickey-dev/scroll-themes-overlayScrollbars/blob/main/src/scroll-themes/os-theme-round-dark.css"
+        />
+        <Content
+          theme="os-theme-round-light"
+          light
+          link="https://github.com/vickey-dev/scroll-themes-overlayScrollbars/blob/main/src/scroll-themes/os-theme-round-light.css"
+        />
+        <Content
+          theme="os-theme-block-dark"
+          link="https://github.com/vickey-dev/scroll-themes-overlayScrollbars/blob/main/src/scroll-themes/os-theme-block-dark.css"
+        />
+        <Content
+          theme="os-theme-block-light"
+          light
+          link="https://github.com/vickey-dev/scroll-themes-overlayScrollbars/blob/main/src/scroll-themes/os-theme-block-light.css"
+        />
       </section>
     </main>
   );
