@@ -87,7 +87,7 @@ export default function Content({
       </article>
       <div className="download-link">
         {["os-theme-dark", "os-theme-light"].includes(theme) ? (
-          "build-in"
+          "built-in"
         ) : (
           <a href={link} target="_blank">
             Download
